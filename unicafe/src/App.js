@@ -26,6 +26,11 @@ const App = () => {
           Bad votes = {bad}
         </h3>
       </div>
+       <h3>average = {(good-bad)/(good + bad + neutral)*100}</h3>
+       <h3>positive = {(good)/(good + bad + neutral)*100}</h3>
+      <div>
+
+      </div>
     </div>
   )
 }
